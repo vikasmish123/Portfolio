@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7602766bc7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/v.png" class="logo">
+                <ul id="sidemenu" class="bar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'am <span> Vikas </span><br> Mishra From Basti</h1>
+            </div>
+        </div>
+    </div>
+   <!----------------About------>
+ <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Software QA Test Engineer with experience in working with Agile (SCRUM), Waterfall model, 
+                        and V-model development model. Well-versed with Functional 
+                        Testing, Regression Testing, Integration Testing, System Testing, Smoke Testing, User Acceptance Test
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul><li><span>SoftwareK Knows</span><br>MS Ofiice,Google sheet, Window 10,11,Chatgbt</li>
+                        <li><span>Technical Skill</span><br>HTLM ,CSS ,Basic Java Script,SQL,Intermediate Java</li>
+                         <li><span>Software Testing Knowledge</span><br>Manual Testing,Basic Automation ,Cucumber Framework,,<br>
+                            API Testing,Postmain tool ,Jira Tool,</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul><li><span>2022-Current</span><br>Software Tester At S Scube Solution Pvt Ltd</li>
+                        <li><span>2021-2022</span><br>Email Support Executive at NetAmbit</li>
+                         <li><span>2018-2020</span><br>Customer Support Engineer at Tech Mahindra</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul><li><span>2017</span><br>Computer Science & Engineer From BTEUP Borad</li>
+                        <li><span>2012</span><br> 12th from U.P Board</li>
+                         <li><span>2009</span><br>10th from U.P Board</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------Services------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to <b>Digital Shala</b>, where innovation meets design. We specialize in crafting visually appealing 
+                    and highly functional websites that captivate your audience and elevate your online presence</p>
+                    <a href="" >Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Welcome to <b>Digital Shala</b>, where user-centric design meets innovation. We specialize in crafting
+                     exceptional user experiences that drive engagement, satisfaction, and business success.</p>
+                    <a href="" class="learn">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                                        <h2>App Design</h2>
+                    <p>Welcome to <b>Digital Shala</b>, where innovation meets technology. We specialize in creating 
+                    robust and user-friendly mobile applications that elevate your brand and engage your audience.</p>
+
+                    <a href="" class="learn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------Portfolio-------------------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="work1">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the World.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="work2">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the World.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="work3">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the World.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+   <!-----  Contact------>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>vikasparsa94@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>8130452597</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>
+            copyright @vikas. made with <i class="fa-solid fa-heart"></i> by easy Totorials
+        </p>
+    </div>
+   </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+       function opentab(tabname)
+       {
+        for(tablink of tablinks)
+        {
+           tablink.classList.remove("active-link");
+
+        }
+
+        for( tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+       }
+ </script>
+ <script>
+    var sidemeu=document.getElementById("sidemenu")
+   
+     function openmenu(){
+        sidemeu.style.right="0";
+     }
+     function closemenu(){
+        sidemeu.style.right="-200px";
+     }
+
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOqXA9Z4iyB7zNZLODARLQtiIQf_qS7azT5dAyGGIqimty26TZpYYhG6dewtG7RTB6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+             
+            setTimeout(function(){
+                   msg.innerHTML=""
+            },5000)
+            form.reset()
+        } )
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>
